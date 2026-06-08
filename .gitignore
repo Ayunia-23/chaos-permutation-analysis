@@ -1,16 +1,34 @@
-.venv/
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
-.DS_Store
-Thumbs.db
 
-# 打包文件
+# Virtual environments
+.venv/
+venv/
+env/
+.conda/
+
+# Build output
 build/
 dist/
 *.spec
 
-# 临时结果，可按需保留部分示例
-results/*
-!results/.gitkeep
+# Local experiment outputs
+results/
+
+# Local temporary files
+bb/
+参考/
+cat.png
+main.py
+main_v3.py
+main_v4_light.py
+main_v5_palette.py
+main_v6_nav_light.py
+附件二---作品设计报告（模板）.docx
+
+# OS files
+.DS_Store
+Thumbs.db
