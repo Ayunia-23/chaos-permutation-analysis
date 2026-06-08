@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+Thumbs.db
+
+# 打包文件
+build/
+dist/
+*.spec
+
+# 临时结果，可按需保留部分示例
+results/*
+!results/.gitkeep
